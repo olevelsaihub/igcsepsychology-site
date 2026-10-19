@@ -130,7 +130,7 @@ if (practiceHub) {
   function loadPdfBuilder() {
     if (!pdfBuilderPromise) pdfBuilderPromise = new Promise((resolve, reject) => {
       const script = document.createElement('script');
-      script.src = '/igcsepsychology/assets/paper-downloads.js?v=2';
+      script.src = '/igcsepsychology/assets/paper-downloads.js?v=2a2e5d35b3';
       script.onload = () => resolve(window.OlvPaperDownloads);
       script.onerror = () => reject(new Error('The PDF builder could not load. Please try again.'));
       document.head.append(script);
