@@ -70,12 +70,12 @@ try{
 (() => {
   if (!document.querySelector('script[data-olv-english-videos]')) {
     const script = document.createElement('script');
-    script.src = '/igcsepsychology/video-library/student-videos.js?v=c1672e8463';
+    script.src = '/igcsepsychology/video-library/student-videos.js?v=01d7b4337c';
     script.dataset.olvEnglishVideos = 'true';
     document.head.append(script);
   }
   for (const nav of document.querySelectorAll('.course-nav')) {
-    if (nav.querySelector('[data-video-lessons]')) continue;
+    continue;   // this subject has no video lessons yet
     const link = document.createElement('a');
     link.className = 'nav-primary'; link.dataset.videoLessons = '';
     link.href = '/igcsepsychology/video-library/'; link.textContent = 'Video Lessons';
