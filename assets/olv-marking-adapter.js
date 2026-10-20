@@ -82,8 +82,12 @@
     const got = norm(line);
     return forms.some(f => {
       const n = norm(f);
-      for (let i = n ? got.indexOf(n) : -1; i >= 0; i = got.indexOf(n, i + 1))
-        if (!/[0-9.\-]/.test(got[i - 1] || '') && !/[0-9.\/]/.test(got[i + n.length] || '')) return true;
+      for (let i = n ? got.indexOf(n) : -1; i >= 0; i = got.indexOf(n, i + 1)) {
+        const after = got[i + n.length] || '';
+        // 'Y=2' is not 'y = 2x + 1': a digit form followed by one letter (a term like 2x) is not a match
+        const term = /\d$/.test(n) && /[A-Z]/i.test(after) && !/[A-Z]/i.test(got[i + n.length + 1] || '');
+        if (!/[0-9.\-]/.test(got[i - 1] || '') && !/[0-9.\/]/.test(after) && !term) return true;
+      }
       return false;
     });
   });
