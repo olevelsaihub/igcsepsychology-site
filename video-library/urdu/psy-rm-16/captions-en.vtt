@@ -1,0 +1,58 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:13.014
+Line up your class by height. The person in the middle gives the median height. The median is the middle value when all the values are put in order, from smallest to largest.
+
+00:00:13.600 --> 00:00:25.445
+With an odd number of values, there is one middle value. With an even number, there are two middle values. The median is halfway between them. Add the two and divide by two.
+
+00:00:26.000 --> 00:00:38.571
+To find the middle position, use the number of values. Five values: the third is the middle. Nine values: the fifth. Ten values: halfway between the fifth and sixth.
+
+00:00:39.160 --> 00:00:48.824
+The median is not affected by extreme values. This question type says calculate the median, or describe how you would find it.
+
+00:00:49.960 --> 00:01:05.734
+Step one: write all the values in order, smallest to largest. This usually earns a mark. Step two: find the middle position. Step three: if there are two middle values, add them and halve.
+
+00:01:06.320 --> 00:01:11.156
+The trap is skipping the ordering. The middle of the unordered list is not the median.
+
+00:01:12.280 --> 00:01:30.306
+Here is a real exam question. Quentin tests the capacity of short-term memory. Ten people see twenty objects, then recall as many as they can. We calculate the median number of objects recalled. It is worth two marks.
+
+00:01:30.880 --> 00:01:37.403
+Here are the ten scores as printed. They are not in order, so the middle of this list is not the median.
+
+00:01:37.960 --> 00:01:48.669
+Step one. Put them in order, smallest first. Six, seven, eight, eight, eight, nine, nine, ten, ten, eleven. Count them: ten values, so none are missing.
+
+00:01:49.240 --> 00:02:00.390
+Step two. Find the middle. With ten values, the middle is between the fifth and sixth. The fifth value is eight. The sixth value is nine.
+
+00:02:00.960 --> 00:02:10.554
+Step three. There are two middle values, so go halfway. Eight plus nine is seventeen. Seventeen divided by two is eight point five.
+
+00:02:11.120 --> 00:02:24.817
+A tempting wrong route is to take the middle of the list as printed. The fifth and sixth printed values are six and seven. That gives six point five. But the values were not in order, so it is wrong.
+
+00:02:25.400 --> 00:02:42.545
+Now the exam-ready answer. In order, the scores are six, seven, eight, eight, eight, nine, nine, ten, ten, eleven. The middle values are eight and nine. The median is eight plus nine, divided by two, which is eight point five. This explanation is by olevels dot com, not an official mark scheme.
+
+00:02:43.680 --> 00:02:58.779
+A common mistake is to pick one of the two middle values. Take two, four, six and ten. The middle values are four and six. The median is five, halfway between them. Picking six is wrong.
+
+00:02:59.880 --> 00:03:13.599
+Now you try. This one has no data at all. You must describe, in words, how you would find a median score. Write your answer, then choose Continue to Answer.
+
+00:03:14.720 --> 00:03:24.987
+First, put the scores in order, from smallest to largest. Here is an example: five, two, nine and three. In order, they are two, three, five and nine.
+
+00:03:25.560 --> 00:03:37.667
+Second, pick the middle score. If there are two middle scores, add them together and divide by two. Here, the middle scores are three and five. Three plus five is eight, and eight divided by two is four.
+
+00:03:38.240 --> 00:03:50.474
+A common wrong answer is to add all the scores and divide by how many there are. That describes the mean, not the median. It does not mention putting the scores in order or finding the middle, so it loses the marks.
+
+00:03:51.040 --> 00:03:57.322
+So order the values. Find the middle. If there are two, add them and halve.

@@ -1,5 +1,5 @@
-import { CHECKER_VERSION, cleanAnswer, evaluateChoice, currentAttempt, mergeAttempt } from './response-checker-core.mjs?v=768b41b689';
-import { checkWrittenAnswer } from './written-response-core.mjs?v=768b41b689';
+import { CHECKER_VERSION, cleanAnswer, evaluateChoice, currentAttempt, mergeAttempt } from './response-checker-core.mjs?v=27ea7e25a0';
+import { checkWrittenAnswer } from './written-response-core.mjs?v=27ea7e25a0';
 
 const storageKey = 'igcsepsychology-practice-results-v1';
 const markingApi = '/igcsepsychology/';
